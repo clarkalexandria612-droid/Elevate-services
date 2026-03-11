@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About | Elevate Finds Co.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#f8f9fb;
+color:#1F2A44;
+line-height:1.7;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.nav-links a{
+margin-left:25px;
+text-decoration:none;
+color:#1F2A44;
+font-weight:500;
+}
+
+.nav-links a:hover{
+color:#D4AF37;
+}
+
+/* HERO HEADER */
+
+.page-header{
+background:linear-gradient(135deg,#1F2A44,#2e3f66);
+color:white;
+text-align:center;
+padding:90px 20px;
+}
+
+.page-header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.page-header p{
+font-size:18px;
+opacity:0.9;
+}
+
+/* CONTENT */
+
+.container{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+.container h2{
+margin-top:35px;
+margin-bottom:15px;
+font-size:26px;
+}
+
+/* CTA */
+
+.cta{
+text-align:center;
+margin-top:40px;
+}
+
+.cta a{
+background:#D4AF37;
+color:#1F2A44;
+padding:14px 30px;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+transition:0.3s;
+}
+
+.cta a:hover{
+background:#c29b2e;
+}
+
+/* FOOTER */
+
+footer{
+background:#1F2A44;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:70px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.nav-links{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.page-header h1{
+font-size:32px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">Elevate Finds Co.</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</nav>
+
+<!-- PAGE HEADER -->
+
+<section class="page-header">
+
+<h1>About Elevate Finds Co.</h1>
+
+<p>Building a smarter way to shop while building a better future.</p>
+
+</section>
+
+<!-- ABOUT CONTENT -->
+
+<section class="container">
+
+<h2>My Story</h2>
+
+<p>
+Elevate Finds Co. began as more than just a business idea—it started as a personal mission. As a single mother, I wanted to create opportunities that would allow me to build financial stability while still being present for the moments that matter most with my son.
+</p>
+
+<p>
+Like many parents, I realized that traditional work schedules can make it difficult to balance earning an income and spending quality time with family. Starting an online business opened the door to a different path—one where I could grow financially, develop new skills, and work toward long-term independence while maintaining flexibility in my life.
+</p>
+
+<h2>What Makes Us Different</h2>
+
+<p>
+Elevate Finds Co. focuses on carefully sourcing products that customers already love and trust. Every item is researched and selected based on quality, demand, and value. By using Amazon's fulfillment network, products can be delivered quickly and reliably to customers across the country.
+</p>
+
+<p>
+The goal is not just to sell products, but to provide a dependable and convenient shopping experience where customers know they are getting thoughtfully sourced items at competitive prices.
+</p>
+
+<h2>A Personal Mission</h2>
+
+<p>
+This business represents determination, growth, and the desire to build something meaningful for the future. Elevate Finds Co. is part of a bigger journey—one focused on financial independence, entrepreneurship, and creating a life that allows both professional success and meaningful family time.
+</p>
+
+<p>
+Every product researched and every order fulfilled is another step toward building a business that reflects dedication, resilience, and the belief that hard work can create new opportunities.
+</p>
+
+<div class="cta">
+
+<a href="products.html">Explore Our Products</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Elevate Finds Co. | Built for Modern E-Commerce
+
+</footer>
+
+</body>
+</html>
